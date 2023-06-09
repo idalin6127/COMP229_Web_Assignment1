@@ -1,0 +1,74 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+
+    <main class="container">
+      <div class="jumbotron">
+      </div>
+    
+      <div class="container">
+        <div class="p-5 mb-6 bg-light rounded-5">
+          <br />
+          <form method="POST" enctype="application/x-www-form-urlencoded" action="/" id="myForm">
+            <div class="form-group row">
+              <h1 class="display-4">Welcome to contact us!</h1>
+              <label for="personal-name" class="col-sm-20 col-form-label text-left">Contact Name : Ling Lin</label>
+              <label for="personal-phone" class="col-sm-20 col-form-label text-left">Contact Number : + 1 4376572355</label>
+              <label for="personal-email" class="col-sm-20 col-form-label text-left">Email Address: 1799851111@qq.com</label>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+              <div class="col-sm-4">
+                <input type="tel" class="form-control" placeholder="John" name="firstName" id="firstName" required>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Smith" name="lastName" id="lastName" required>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label for="contact-number" class="col-sm-2 col-form-label">Contact Number</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="+1 123 456 7890" name="contact-number" id="contact-number">
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label for="contact-email" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-4">
+                <input type="email" class="form-control" placeholder="your.email@example.com" name="contact-email" id="contact-email">
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label for="contact-msg">Message</label>
+              <textarea class="form-control" id="contact-msg" rows="3" name="contact-msg" id="contact-msg"></textarea>
+            </div>
+    
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+
+          <p class="card-text bg-light" style="transform: rotate(0);"></p>
+          Back to <a href="/" class="text-warning">Home</a></p>
+        </div>
+      </div>
+    </main>
+    
+
+      
+      
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   
